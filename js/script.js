@@ -25,7 +25,7 @@ function nathanGenerator() {
 
   const newNathan = document.createElement("img")
   newNathan.className = "nathan"
-  newNathan.src = "/img/image0.jpg"
+  newNathan.src = "./img/image0.jpg"
   newNathan.alt = "Nathan le goat"
 
   newNathan.style.gridColumnStart = nathanX
