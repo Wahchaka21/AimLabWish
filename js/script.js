@@ -9,7 +9,7 @@ const gridSize = {
 
 let currentScore = 0
 
-const music = new Audio("sounds/GIMS - Ciel (Official Lyrics Video).mp3")
+const music = new Audio("./sounds/GIMS - Ciel (Official Lyrics Video).mp3")
 music.volume = 0.03
 
 
