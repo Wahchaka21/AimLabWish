@@ -1,13 +1,16 @@
 const gameContainer = document.querySelector(".game-container")
 const score = document.querySelector(".score")
 const play = document.querySelector(".play")
-const nathan = document.querySelector(".nathan")
+
 const gridSize = {
   cols: 30,
   rows: 30
 }
 
 let currentScore = 0
+
+const music = new Audio("sounds/GIMS - Ciel (Official Lyrics Video).mp3")
+music.volume = 0.03
 
 
 function updateScore() {
@@ -41,6 +44,7 @@ function startGame() {
   currentScore = 0
   score.textContent = "Score : 0"
   nathanGenerator()
+  music.play()
 }
 
 
