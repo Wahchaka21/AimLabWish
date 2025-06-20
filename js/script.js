@@ -25,9 +25,6 @@ function nathanGenerator() {
   newNathan.src = "/img/image0.jpg"
   newNathan.alt = "Nathan le goat"
 
-
-  newNathan.className = "nathan w-[60px] rounded-full cursor-pointer"
-
   newNathan.style.gridColumnStart = nathanX
   newNathan.style.gridRowStart = nathanY
 

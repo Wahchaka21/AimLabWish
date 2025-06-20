@@ -55,6 +55,8 @@ body {
 }
 
 .nathan {
-    width: 120%;
+    width: 65px;
+    height: 60px;
     border-radius: 50px;
+    cursor: pointer;
 }
